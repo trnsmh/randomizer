@@ -1,0 +1,40 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+	font-family: 'Press Start 2P', cursive;
+    font-size: 0.8rem;
+}
+.container-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+}
+#randomizer {
+	padding: 3rem;
+	border-radius: 20%;
+	border-style: none;
+	font-size: 1rem;
+	font-family: 'Press Start 2P', cursive;
+}
+.shifter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 5rem;
+	font-family: 'Press Start 2P', cursive;
+}
+.shifter div {
+	padding: 2.5rem;
+	border: 1px dotted black;
+    font-size: 2rem;
+}
+.shifter div p{
+    margin:0;
+}
+.shifter div p a{
+    margin-top:0;
+}
