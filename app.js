@@ -2,11 +2,12 @@ const head = document.querySelector('#header');
 const button = document.querySelector('#randomizer');
 const body = document.querySelector('#body');
 const chance = document.querySelector('#chances');
-
+const clkCounter = document.querySelector('#counter');
 const rands = [];
 let counter = 0;
-
+const num = document.createElement('p');
 button.addEventListener('click', () => {
+
     const red = Math.floor(Math.random() * 255) + 1;
     const green = Math.floor(Math.random() * 255) + 1;
     const blue = Math.floor(Math.random() * 255) + 1;
@@ -32,6 +33,10 @@ button.addEventListener('click', () => {
         div.appendChild(p);
         p.innerHTML = "<a>&hearts;</a>";
     }
-    counter++;
+
+    // counter++;
+    // num.innerText = null;
+    // num.innerText = counter;
+    // clkCounter.append(num);
 
 });
